@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav starts */
+nav{
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.nav-logo{
+  
+}
+.nav-list ul {
+    display: flex;
+  gap: 35px;
+}
+.nav-list li{
+    list-style: none;
+    font-size: 30px;
+    color: white;
+}
+/* nav finish */
+/* header banner section start */
+.banner-container{
+    height:100vh;
+    background-image: url('./background.jpg'),
+    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    align-items: center;
+}
+.asd{
+    
+    font-size: 120px;
+}
+.llk{
+    font-size: 35px;
+    /* text-align: center; */
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.banner-description{
+ padding-top:380px;
+ color: white;
+}
+#ccv{
+    color: red;
+}
+/* button section */
+.btn{
+    padding: 18px 22px;
+    border: 0;
+    margin-right: 25px;
+    margin-top: 15px;
+
+}
+.btn-primary{
+    background-color: red;
+    color: white;
+}
+/* button section ends here */
+/* header ends here */
+.main-container{
+    height:100vh;
+    background-image: url('./footer-bg.png'),
+    linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    align-items: center;
+    padding: 30px;
+
+}
+.mji{
+    font-size: 28px;
+    width: 50%;
+    padding-bottom: 20px;
+}
+.ghj{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.icon{
+ width: 100px;
+ /* color: white; */
+ margin-top: 25px;
+
+}
+.boxes{
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    /* justify-content: center; */
+    color: black;
+    border-radius: 5px;
+}
+/* }
+.icon-title{
+    color: black;
+} */
+.main-container{
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.all-boxes{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+.author-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75%;
+    /* display: flex; */
+}
+.author-img2{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    /* border-right: 1px solid red; */
+    border-right: 1px solid red;
+    padding-bottom: 40px;
+}
+.author-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 150px;
+}
+.left-containe{
+    padding-bottom: 30px;
+}
+/* main first part ends */
+.apoinment-icon{
+    width: 100px;
+}
+.apoinment-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+    background-image: url('./background.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: -70px;
+    border-radius: 5px;
+}
+.apoinment-title{
+    display: flex;
+   align-items: center;
+}
+/* main 2nd part ends here */
+.card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px  5px gray;
+    border-radius: 5px;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 100px;
+}
+.news-title{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+/* footer start */
+.footer-container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+
+}
+/* .foter-content{
+    padding-top: 50px;
+} */
+.footer-des{
+    padding-top: 70px;
+    text-align: center;
+    justify-content: center;
+}
